@@ -1,0 +1,8 @@
+redux
+https://daveceddia.com/how-does-redux-work/
+https://github.com/dceddia/redux-intro/blob/master/src/index.js
+https://celestialsys.com/blog/redux-fundamentals-building-blocks-and-data-flow
+
+ilustrasi
+https://celestialsys.com/blog/wp-content/uploads/2019/12/Redux-1024x608.jpg
+https://celestialsys.com/blog/wp-content/uploads/2019/12/data-flow.jpg
