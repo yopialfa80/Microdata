@@ -31,10 +31,16 @@ export default class ButtonCount extends Component {
     render() {
         return (
             <div>
-                <button onClick={this.decrement}>-</button>
-                <span>{this.state.count}</span>
-                <button onClick={this.increment}>+</button>
+                <button onClick={this.decrement} style={styles.whitespace}>-</button>
+                <span style={styles.whitespace}>{this.state.count}</span> 
+                <button onClick={this.increment} style={styles.whitespace}>+</button>
             </div>
         )
     }
 }
+
+const styles = {
+    whitespace: {
+        margin: '0 5px',
+    }
+};
