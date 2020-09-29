@@ -13,7 +13,6 @@ export default class ButtonCount extends Component {
         this.props.onCounterChange(params);
     }
 
-
     increment = () => {
         this.setState(
             { count: this.state.count + 1 },
