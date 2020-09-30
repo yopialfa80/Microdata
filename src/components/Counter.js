@@ -11,16 +11,14 @@ export default class Counter extends Component {
         };
     }
 
-    onCounterChange = (params) => {
-        this.setState({ count: params });
-    }
+    //onCounterChange = (params) => this.setState({ count: params });
 
     render() {
         return (
             <Fragment>
                 <h2>COUNTER</h2>
                 <h1>{this.state.count}</h1>
-                <ButtonCount count={this.state.count} onCounterChange={this.onCounterChange}/>
+                <ButtonCount count={this.state.count}/>
             </Fragment>
         )
     }
