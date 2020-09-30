@@ -1,5 +1,5 @@
 redux
-https://daveceddia.com/how-does-redux-work/
+https://daveceddia.com/how-does-redux-work
 https://github.com/dceddia/redux-intro/blob/master/src/index.js
 https://celestialsys.com/blog/redux-fundamentals-building-blocks-and-data-flow
 
